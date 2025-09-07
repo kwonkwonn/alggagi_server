@@ -10,7 +10,6 @@
 
 
 #define PORT 9090
-#define SERVER_IP "203.229.49.110"
 
 int main() {
     GameBoard gb;
