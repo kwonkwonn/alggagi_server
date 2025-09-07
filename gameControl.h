@@ -1,5 +1,4 @@
-#include <vector>
-#include <queue>
+#pragma once
 #include "./game/game.h"
 
 class GameBoard {

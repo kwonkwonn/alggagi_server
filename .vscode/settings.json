@@ -63,6 +63,8 @@
     "concepts": "cpp",
     "algorithm": "cpp",
     "stack": "cpp",
-    "queue": "cpp"
-  }
+    "queue": "cpp",
+    "random": "cpp"
+  },
+  "C_Cpp.default.compilerPath": "cl.exe"
 }
