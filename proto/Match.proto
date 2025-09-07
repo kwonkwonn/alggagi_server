@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+
+message Wrapper{
+    oneof payload{
+        NewMatchRequest matReq = 1;
+        NewMatchInfo matIn = 2;
+        NewMatchResponse matRes = 3;
+        
+    }
+}
+
+
+message NewMatchRequest{
+    
+}
+
+message NewMatchInfo{
+    int32 gameCode=1;
+}
+
+message NewMatchResponse{
+    int32 gameCode=1;
+}
